@@ -56,7 +56,14 @@ html.lenis body {
   transform: translateY(20px);
 }
 
+.star {
+ 
+    position: absolute;
+    bottom: 5vh;
+}
 .star img {
+  
+
   user-select: none;
   margin-top: 15vh;
   height: 10vh;
@@ -65,6 +72,7 @@ html.lenis body {
   transform-origin: center center;
   animation: levitate 3s ease-in-out infinite;
   will-change: transform, opacity;
+  /* transition: transform 1s ease-out, opacity 1s ease-out; */
 }
 
 .star img.default-properties {
@@ -91,6 +99,8 @@ html.lenis body {
 
 /* Text Style */
 h1,
+h2,
+p,
 li {
   font-family: "Staatliches", Arial, Helvetica, sans-serif;
 }
@@ -138,21 +148,66 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
+/*  */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container img {
+  height: 15vh;
+  border-radius: 0.5vw;
+  opacity: 1;
+  width: auto;
+}
+.container p,
+h2 {
+  text-align: left;
+}
+
+/*  */
+
+
+
+.accomplishments {
+    /* border: 1px solid red; */
+}
+
 .accomplishments h1 {
+    margin: auto;
+    /* border: 1px solid green; */
   font-size: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transform: translateX(-50px); 
+  transform: translateX(-50px);
   color: var(--background_black);
 }
 
+.description {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: left;
+    /* border: 1px solid blue; */
+}
+
+.description h2, .description p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
 body {
   background-color: var(--background_black);
+
   overflow-x: hidden;
 }
