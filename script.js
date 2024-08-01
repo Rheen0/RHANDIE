@@ -36,7 +36,7 @@ gsap.to(".star img", {
     start: "top 65%",
     end: "bottom 10%",
     scrub: true,
-      markers: true,
+      // markers: true,
     onEnter: () => {
       gsap.to(".star img", { opacity: 1 });
       document.querySelector(".star img").classList.add("no-levitate");
