@@ -32,39 +32,60 @@ gsap.to(".RHANDIE ul li", {
 // Star
 gsap.to(".star img", {
   scrollTrigger: {
-    trigger: ".star",
-    start: "top 65%",
-    end: "bottom 10%",
-    scrub: true,
-      markers: true,
-    onEnter: () => {
-      gsap.to(".star img", { opacity: 1 });
-      document.querySelector(".star img").classList.add("no-levitate");
-      document.querySelector(".star img").classList.add("default-properties"); // Restore default properties
-    },
-    onLeaveBack: () => {
-      gsap.to(".star img", { opacity: 1 });
-      document.querySelector(".star img").classList.remove("no-levitate");
-      document
-        .querySelector(".star img")
-        .classList.remove("default-properties"); // Remove default properties class
-    },
-    onEnterBack: () => {
-      gsap.to(".star img", { opacity: 1 });
-      document.querySelector(".star img").classList.add("default-properties"); // Restore default properties
-    },
-    onLeave: () => {
-      gsap.to(".star img", { opacity: 0 });
-      document
-        .querySelector(".star img")
-        .classList.remove("default-properties"); // Remove default properties class
-    },
+      trigger: ".star",
+      start: "top 65%",
+      end: "bottom 10%",
+      scrub: true,
+      // markers: true,
+      onEnter: () => {
+          gsap.to(".star img", { opacity: 1 });
+          document.querySelector(".star img").classList.add("no-levitate");
+          document.querySelector(".star img").classList.add("default-properties"); // Restore default properties
+      },
+      onLeaveBack: () => {
+          gsap.to(".star img", { opacity: 1 });
+          document.querySelector(".star img").classList.remove("no-levitate");
+          document.querySelector(".star img").classList.remove("default-properties"); // Remove default properties class
+      },
+      onEnterBack: () => {
+          gsap.to(".star img", { opacity: 1 });
+          document.querySelector(".star img").classList.add("default-properties"); // Restore default properties
+      },
+      onLeave: () => {
+          gsap.to(".star img", { opacity: 0 });
+          document.querySelector(".star img").classList.remove("default-properties"); // Remove default properties class
+      },
   },
   scale: "100vh 100vw",
   rotation: 180,
   ease: "power2.out",
 });
 
+// Text animation with delay
+const textTimeline = gsap.timeline({
+  scrollTrigger: {
+      trigger: ".star",
+      start: "top 80%",
+      end: "top 50%",
+      scrub: true
+  }
+});
+
+textTimeline.fromTo(".star h2", 
+  { fontSize: "0.5rem", opacity: 0, rotate: -160, x: -60 }, // Initial state
+  { 
+      fontSize: "2.5rem",
+      opacity: 1, 
+      rotate: 0, 
+      x: 0, 
+      duration: 3, 
+      delay: 5, // Delay of 0.5 seconds
+     // Repeat infinitely
+      yoyo: true, // Alternate between forward and reverse
+      ease: "power2.out"
+      
+  }
+);
 
 gsap.to("body", {
   backgroundColor: "#ffffff", // White
