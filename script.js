@@ -36,7 +36,7 @@ gsap.to(".star img", {
     start: "top 65%",
     end: "bottom 10%",
     scrub: true,
-      // markers: true,
+      markers: true,
     onEnter: () => {
       gsap.to(".star img", { opacity: 1 });
       document.querySelector(".star img").classList.add("no-levitate");
@@ -70,8 +70,8 @@ gsap.to("body", {
   backgroundColor: "#ffffff", // White
   scrollTrigger: {
     trigger: ".star",
-    start: "top 45%",
-    end: "bottom center",
+    start: "top 65%",
+    end: "bottom 10%",
     scrub: 0.3, // Adjust this value for different transition speeds (in seconds)
     // markers: true,
   },
