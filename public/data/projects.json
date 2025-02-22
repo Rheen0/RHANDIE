@@ -1,0 +1,38 @@
+[
+  {
+    "title": "PUP Microsoft Student Community Website '24-25",
+    "description": "The official website for PUP Microsoft Student Community",
+    "tags": ["Website"],
+    "thumbnail": "/images/projects/msc-web.png"
+  },
+  {
+    "title": "Website",
+    "description": "dsadasda",
+    "tags": ["Website"],
+    "thumbnail": "/sample.png"
+  },
+  {
+    "title": "PUP Microsoft Student Community: From Backburner to Backend Master",
+    "description": "Node.js, Express.js, mySQL, and other best practices for Backend Development",
+    "tags": ["Event", "Website"],
+    "thumbnail": "/images/projects/Backburner.png"
+  },
+  {
+    "title": "PUP Microsoft Student Community: Click Me, Hover Me, Love Me! ",
+    "description": "HTML, CSS, and JavaScript",
+    "tags": ["Event", "Website"],
+    "thumbnail": "/images/projects/FrontendBasics.jpg"
+  },
+  {
+    "title": "PUP Microsoft Student Community: Git Ready to Commit With Mick!",
+    "description": "Lorem",
+    "tags": ["Event", "Website"],
+    "thumbnail": "/images/projects/GitReady.jpg"
+  },
+  {
+    "title": "Sample Data",
+    "description": "Lorem",
+    "tags": ["Data"],
+    "thumbnail": "/sample.png"
+  }
+]

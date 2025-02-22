@@ -1,0 +1,146 @@
+{
+  "name": "Rhandie Sales",
+  "bio": "Rhandie Sales is a sophomore student and a full-stack web developer with foundational knowledge in various IT fields, including UI/UX design, data, cloud, game, and software development. He actively contributes to projects, mentors peers, and continuously hones his skills to create impactful digital solutions.",
+  "profilePicture": "/images/about/furina.gif",
+  "techStack": {
+    "web": [
+      {
+        "name": "HTML5",
+        "alt": "HTML5",
+        "image": "/images/tech/frontend/html.svg"
+      },
+      {
+        "name": "CSS",
+        "alt": "CSS",
+        "image": "/images/tech/frontend/css3-svgrepo-com.svg"
+      },
+      {
+        "name": "JavaScript",
+        "alt": "JavaScript",
+        "image": "/images/tech/frontend/javascript-svgrepo-com.svg"
+      },
+      {
+        "name": "React.js",
+        "alt": "React.js",
+        "image": "/images/tech/frontend/react-svgrepo-com.svg"
+      },
+      {
+        "name": "Tailwind",
+        "alt": "Tailwind",
+        "image": "/images/tech/frontend/tailwind-svgrepo-com.svg"
+      },
+      {
+        "name": "Node.js",
+        "alt": "Node.js",
+        "image": "/images/tech/backend/node-js-svgrepo-com.svg"
+      },
+      {
+        "name": "Express.js",
+        "alt": "Express.js",
+        "image": "/images/tech/backend/express-svgrepo-com.svg"
+      },
+      {
+        "name": "MongoDB",
+        "alt": "MongoDB",
+        "image": "/images/tech/backend/mongodb-svgrepo-com.svg"
+      },
+      {
+        "name": "Flask",
+        "alt": "Flask",
+        "image": "/images/tech/backend/flask-svgrepo-com.svg"
+      },
+      {
+        "name": "Postgresql",
+        "alt": "Postgresql",
+        "image": "/images/tech/backend/postgresql-svgrepo-com.svg"
+      },
+      {
+        "name": "PHP",
+        "alt": "PHP",
+        "image": "/images/tech/backend/php01-svgrepo-com.svg"
+      },
+      {
+        "name": "mySQL",
+        "alt": "mySQL",
+        "image": "/images/tech/backend/mysql-svgrepo-com.svg"
+      },
+      {
+        "name": ".NET",
+        "alt": ".NET",
+        "image": "/images/tech/backend/dotnet-svgrepo-com.svg"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "Android Studio",
+        "alt": "Android Studio",
+        "image": "/images/tech/mobile/logo-google-android-studio-svgrepo-com.svg"
+      }
+    ],
+    "data": [
+      {
+        "name": "PostgreSQL",
+        "alt": "PostgreSQL",
+        "image": "/images/tech/backend/postgresql-svgrepo-com.svg"
+      },
+      {
+        "name": "MongoDB",
+        "alt": "MongoDB",
+        "image": "/images/tech/backend/mongodb-svgrepo-com.svg"
+      },
+      {
+        "name": "mySQL",
+        "alt": "mySQL",
+        "image": "/images/tech/backend/mysql-svgrepo-com.svg"
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS",
+        "alt": "AWS",
+        "image": "/images/tech/cloud/aws-svgrepo-com.svg"
+      },
+      {
+        "name": "Azure",
+        "alt": "Microsoft Azure",
+        "image": "/images/tech/cloud/azure-svgrepo-com.svg"
+      },
+      {
+        "name": "Docker",
+        "alt": "Docker",
+        "image": "/images/tech/cloud/docker-svgrepo-com.svg"
+      }
+    ],
+    "project management": [
+      {
+        "name": "MS Teams",
+        "alt": "MS Teams",
+        "image": "/images/tech/pm/social-ms-teams-svgrepo-com.svg"
+      }
+    ],
+    "ui/ux": [
+      {
+        "name": "Figma",
+        "alt": "Figma",
+        "image": "/images/tech/uiux/figma-svgrepo-com.svg"
+      },
+      {
+        "name": "Canva",
+        "alt": "Canva",
+        "image": "/images/tech/uiux/canva-svgrepo-com.svg"
+      }
+    ],
+    "game development": [
+      {
+        "name": "Unity",
+        "alt": "Unity",
+        "image": "/images/tech/gamedev/unity-svgrepo-com.svg"
+      },
+      {
+        "name": "ROBLOX Studio",
+        "alt": "ROBLOX Studio",
+        "image": "/images/tech/gamedev/roblox-svgrepo-com.svg"
+      }
+    ]
+  }
+}
